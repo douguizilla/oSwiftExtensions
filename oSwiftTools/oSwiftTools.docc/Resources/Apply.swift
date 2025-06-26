@@ -9,6 +9,6 @@ protocol Apply {}
 
 extension Apply {
     func apply(closure: (Self) -> ()) -> Void {
-        closure(self)
+        closure(&self)
     }
 }
