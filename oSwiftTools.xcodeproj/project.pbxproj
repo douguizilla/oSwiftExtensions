@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		03C476452E0CB47200B18074 /* oSwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = oSwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C476452E0CB47200B18074 /* oSwiftTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = oSwiftTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		03C476472E0CB47200B18074 /* oSwiftExtensions */ = {
+		03C476472E0CB47200B18074 /* oSwiftTools */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = oSwiftExtensions;
+			path = oSwiftTools;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		03C4763B2E0CB47200B18074 = {
 			isa = PBXGroup;
 			children = (
-				03C476472E0CB47200B18074 /* oSwiftExtensions */,
+				03C476472E0CB47200B18074 /* oSwiftTools */,
 				03C476462E0CB47200B18074 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		03C476462E0CB47200B18074 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03C476452E0CB47200B18074 /* oSwiftExtensions.framework */,
+				03C476452E0CB47200B18074 /* oSwiftTools.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,9 +58,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		03C476442E0CB47200B18074 /* oSwiftExtensions */ = {
+		03C476442E0CB47200B18074 /* oSwiftTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03C4764E2E0CB47200B18074 /* Build configuration list for PBXNativeTarget "oSwiftExtensions" */;
+			buildConfigurationList = 03C4764E2E0CB47200B18074 /* Build configuration list for PBXNativeTarget "oSwiftTools" */;
 			buildPhases = (
 				03C476402E0CB47200B18074 /* Headers */,
 				03C476412E0CB47200B18074 /* Sources */,
@@ -72,13 +72,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				03C476472E0CB47200B18074 /* oSwiftExtensions */,
+				03C476472E0CB47200B18074 /* oSwiftTools */,
 			);
-			name = oSwiftExtensions;
+			name = oSwiftTools;
 			packageProductDependencies = (
 			);
 			productName = oSwiftExtensions;
-			productReference = 03C476452E0CB47200B18074 /* oSwiftExtensions.framework */;
+			productReference = 03C476452E0CB47200B18074 /* oSwiftTools.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03C4763F2E0CB47200B18074 /* Build configuration list for PBXProject "oSwiftExtensions" */;
+			buildConfigurationList = 03C4763F2E0CB47200B18074 /* Build configuration list for PBXProject "oSwiftTools" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03C476442E0CB47200B18074 /* oSwiftExtensions */,
+				03C476442E0CB47200B18074 /* oSwiftTools */,
 			);
 		};
 /* End PBXProject section */
@@ -347,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03C4763F2E0CB47200B18074 /* Build configuration list for PBXProject "oSwiftExtensions" */ = {
+		03C4763F2E0CB47200B18074 /* Build configuration list for PBXProject "oSwiftTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03C4764C2E0CB47200B18074 /* Debug */,
@@ -356,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03C4764E2E0CB47200B18074 /* Build configuration list for PBXNativeTarget "oSwiftExtensions" */ = {
+		03C4764E2E0CB47200B18074 /* Build configuration list for PBXNativeTarget "oSwiftTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03C4764F2E0CB47200B18074 /* Debug */,
