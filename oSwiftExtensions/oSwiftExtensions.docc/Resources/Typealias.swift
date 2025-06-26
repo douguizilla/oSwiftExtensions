@@ -10,3 +10,6 @@ import Foundation
 typealias Queries = [URLQueryItem]
 typealias Parameters = [String: Any]
 typealias Headers = [String: String]
+typealias oCodable = oEncodable & oDecodable
+
+
